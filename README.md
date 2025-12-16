@@ -1,13 +1,13 @@
 # Genetik Algoritma ile Tarım Arazisinde Gübre ve Sulama Optimizasyonu
 
-## 📋 Proje Hakkında
+## Proje Hakkında
 
 Bu proje, **Yapay Zeka Sistemleri** dersi kapsamında, Genetik Algoritma (GA) kullanarak tarım arazisinde gübre ve sulama miktarlarını optimize eden bir optimizasyon çözümüdür.
 
 ### Senaryo
 Tarım arazisinde maksimum verim elde etmek için gübre ve sulama miktarlarının optimal değerlerini bulmak.
 
-## 🎯 Optimizasyon Problemi
+## Optimizasyon Problemi
 
 ### Amaç Fonksiyonu (Maksimizasyon)
 $$y = 10x_1 + 6x_2 - 0.5x_1^2 - 0.2x_2^2$$
@@ -20,7 +20,7 @@ $$y = 10x_1 + 6x_2 - 0.5x_1^2 - 0.2x_2^2$$
 - $x_1 + 0.1x_2 \leq 60$
 - $x_2 \geq 20$
 
-## 🚀 Kurulum
+## Kurulum
 
 ### Gereksinimler
 - Python 3.7 veya üzeri
@@ -55,7 +55,7 @@ $$y = 10x_1 + 6x_2 - 0.5x_1^2 - 0.2x_2^2$$
    - `genetik_algoritma_tarim.ipynb` dosyasını açın
    - Tüm hücreleri sırayla çalıştırın (Kernel → Restart & Run All)
 
-## 📖 Kullanım
+## Kullanım
 
 ### Notebook Yapısı
 
@@ -87,7 +87,7 @@ P_m = 0.05       # Mutasyon Oranı
 M = 1000         # Penalty Katsayısı
 ```
 
-## 📊 Sonuçlar
+## Sonuçlar
 
 Notebook çalıştırıldığında:
 - Her nesildeki en iyi uygunluk değerinin evrimini gösteren grafik
@@ -95,34 +95,10 @@ Notebook çalıştırıldığında:
 - Maksimum verim değeri
 - Kısıtların sağlanıp sağlanmadığı kontrolü
 
-## 🔧 Genetik Algoritma Özellikleri
+## Genetik Algoritma Özellikleri
 
 - **Seçim**: Turnuva Seçimi (Tournament Selection)
 - **Çaprazlama**: Tek Noktalı Çaprazlama (Single-Point Crossover)
 - **Mutasyon**: Rastgele Üniform Mutasyon
 - **Elitizm**: En iyi birey korunur
 - **Kısıt Yönetimi**: Penalty Metodu
-
-## 📝 Lisans
-
-Bu proje eğitim amaçlıdır.
-
-## 👤 Yazar
-
-- **Ad Soyad**: [Öğrenci Adı]
-- **Öğrenci No**: [Öğrenci Numarası]
-- **Ders**: Yapay Zeka Sistemleri
-
-## 📚 Referanslar
-
-- Genetik Algoritmalar teorisi ve uygulamaları
-- Optimizasyon problemleri ve kısıt yönetimi
-
-## 🤝 Katkıda Bulunma
-
-Bu bir öğrenci projesidir. Sorularınız veya önerileriniz için issue açabilirsiniz.
-
----
-
-**Not**: Bu proje, Yapay Zeka Sistemleri dersi kapsamında hazırlanmıştır.
-
